@@ -11,9 +11,6 @@ namespace SOLID.Code.Implementations
 {
     public class GeraDesconto : IGeraDesconto
     {
-        public decimal precoProduto { get; set; }
-        public int tempoDeContaEmAnos { get; set; }
-        public decimal descontoPorFidelidade { get; set; }
         private decimal precoDepoisDoDesconto { get; set; } = 0;
 
         private readonly ICalcularDescontoFidelidade _calcularDescontoFidelidade;
