@@ -4,7 +4,7 @@ using SOLID.Code.Enum;
 using SOLID.Code.Implementations;
 using SOLID.Code.Interfaces;
 
-ICalcularDescontoFidelidade descFide = new CalculaDescontoPorFidelidade();
+ICalcularDescontoFidelidade descFide = new CalcularDescontoFidelidade();
 
 IAplicaDescontoFidelidade descAplicaFide = new AplicaDescontoFidelidade();
 
